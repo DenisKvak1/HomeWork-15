@@ -17,7 +17,7 @@
     .input__block{
         margin-left: auto;
         margin-right: auto;
-        width: 33%;
+        width: 100%;
         padding: 30px 40px;
         border: 1px solid black;
     }
@@ -42,4 +42,14 @@
     }
     .input__block input:valid + span + span{
         display: none;
+    }
+    @media (min-width: 768px) {
+        .input__block{
+            width: 70%;
+        }
+    }
+    @media (min-width: 992px) {
+        .input__block{
+            width: 45%;
+        }
     }
