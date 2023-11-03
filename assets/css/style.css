@@ -45,11 +45,11 @@
     }
     @media (min-width: 768px) {
         .input__block{
-            width: 70%;
+            width: 60%;
         }
     }
     @media (min-width: 992px) {
         .input__block{
-            width: 45%;
+            width: 35%;
         }
     }
