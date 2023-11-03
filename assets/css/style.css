@@ -19,7 +19,7 @@
         margin-right: auto;
         width: 33%;
         padding: 30px 40px;
-        border: 1px dashed red;
+        border: 1px solid black;
     }
     .input__block label{
         font-size: 38px;
