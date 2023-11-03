@@ -40,9 +40,10 @@
     .input__block input:invalid + span{
         display: none;
     }
-    .input__block input:valid + span + span{
+    .input__block input:valid + span + span, .input__block input:placeholder-shown + span + span{
         display: none;
     }
+    
     @media (min-width: 768px) {
         .input__block{
             width: 60%;
