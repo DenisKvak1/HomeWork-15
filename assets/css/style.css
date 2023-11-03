@@ -1,0 +1,45 @@
+    * { 
+        box-sizing: border-box;
+    }
+    body {
+        margin:0;
+        color: rgb(83, 83, 83);
+        font-family: 'Caveat', cursive;
+        font-size: 20px;
+    }
+    
+    #header_nav{
+        background-color: white !important;
+    }
+    #header_nav a{
+        font-size: 25px;
+    }
+    .input__block{
+        margin-left: auto;
+        margin-right: auto;
+        width: 33%;
+        padding: 30px 40px;
+        border: 1px dashed red;
+    }
+    .input__block label{
+        font-size: 38px;
+    }
+    .input__block input{
+        border-radius: 1.5px;
+        border-color: black;
+        font-size: 23px;
+    }
+    .input__block button{
+        width: 100%;
+        height: 40px;
+        border: none;
+        background-color: #686868;
+        color: white;
+        font-size: 23px;
+    }
+    .input__block input:invalid + span{
+        display: none;
+    }
+    .input__block input:valid + span + span{
+        display: none;
+    }
